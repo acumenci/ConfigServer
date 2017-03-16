@@ -22,11 +22,11 @@
 
 
 
-# Requesting configs that don't exist.
+## Requesting configs that don't exist.
 
 * Server gives an error explaining that the config does not exist.
 
-# Requesting configs that do exist but not for the current client/environment
+## Requesting configs that do exist but not for the current client/environment
 
 * Server gives an error explaining that this configration is not available for the requested client/environemnt
 
