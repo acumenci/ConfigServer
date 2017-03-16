@@ -50,12 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="TestCases.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include=".\Tests\**">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Folder>
-    <Content Include=".\Tests\**\*">
+    <Content Include=".\Tests\**\*.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

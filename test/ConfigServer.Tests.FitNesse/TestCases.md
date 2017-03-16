@@ -9,12 +9,12 @@
 * Try some different clients and see that the config is different.
 * Try some diffeerent environments see that config is different.
 
-## Can edit config.
+## Can edit config
 
 * Get a bit of config. Change it. See that it has changed
 * Get a bit of config. Change it. See that it has not changed elsewhere.
 
-## Can transfer config.
+## Can transfer config
 
 * Promote some config to a different environment. See that it is in that environment.
 * Attempt to transfer config accross clients. Check that that is not allowed.
@@ -22,7 +22,7 @@
 
 
 
-## Requesting configs that don't exist.
+## Requesting configs that don't exist
 
 * Server gives an error explaining that the config does not exist.
 
