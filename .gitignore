@@ -252,5 +252,9 @@ ModelManifest.xml
 
 # FitNesse stuff
 *.jar
-test/ConfigServer.Tests.FitNesse/FitNesseRoot/
-!test/ConfigServer.Tests.FitNesse/FitNesseRoot/**/*.wiki
+!**/*.wiki
+!/test/ConfigServer.Tests.FitNesse/FitNesseRoot
+/test/ConfigServer.Tests.FitNesse/FitNesseRoot/*
+!/test/ConfigServer.Tests.FitNesse/FitNesseRoot/FrontPage/
+# test/ConfigServer.Tests.FitNesse/FitNesseRoot/
+# test/ConfigServer.Tests.FitNesse/FitNesseRoot/**/*.zip

@@ -7,9 +7,7 @@ if (!(Test-Path $FitJarPath)) {
 
 Get-Command java -ErrorAction SilentlyContinue | Out-Null
 
-if ($?) {
-    # java is installed
-} else {
+if (!$?){
     throw "Java is not installed! Chocolatey makes this really easy: https://chocolatey.org/packages/javaruntime"
 }
 
